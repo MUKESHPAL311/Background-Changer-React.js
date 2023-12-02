@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  /* background: green; */
+  height: 100vh;
+  position: relative;
+}
+
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  width: 80%;
+  background-color: rgb(56, 54, 54);
+  position: absolute;
+  bottom: 80px;
+  left: 10%;
+  padding: 18px;
+  border-radius: 25px;
+}
+
+.button{
+  padding: 12px 26px;
+  border: 0;
+  border-radius: 12px;
+  font-size: 22px;
+  font-weight: 400;
+  color: rgb(56, 50, 50);
+  transition: 3s;
+  outline: 0;
+}
+
+.button:hover{
+  /* background-color: rgb(244, 9, 9); */
+  background-color: brown;
+}
